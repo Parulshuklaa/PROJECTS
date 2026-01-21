@@ -1,0 +1,186 @@
+#que1:
+# Create a dictionary to store personal information
+my_info = {
+    "Name": "Parul Bhatia",
+    "Age": 21,
+    "Gender": "Female",
+    "Course": "B.Tech in AI & ML",
+    "College": "IIT Madras"
+}
+
+# Print dictionary
+print("My Information:")
+for key, value in my_info.items():
+    print(f"{key}: {value}")
+
+
+#que2:
+# Create a dictionary
+student = {
+    "Name": "Parul",
+    "Age": 21,
+    "Gender": "Female",
+    "Course": "AI & ML"
+}
+# Access items using keys
+print("Name:", student["Name"])
+print("Age:", student["Age"])
+print("Gender:", student["Gender"])
+print("Course:", student["Course"])
+
+
+#que3:
+# Create a dictionary
+student = {
+    "Name": "Parul",
+    "Age": 21,
+    "Gender": "Female",
+    "Course": "AI & ML"
+}
+
+# Get list of values from the dictionary
+values_list = list(student.values())
+
+# Print the list of values
+print("List of values:", values_list)
+
+
+#que4:
+# Create a dictionary
+student = {
+    "Name": "Parul",
+    "Age": 21,
+    "Gender": "Female",
+    "Course": "AI & ML"
+}
+
+# Change the value of a specific item using its key
+student["Age"] = 22
+
+# Print updated dictionary
+print("Updated dictionary:")
+print(student)
+
+#que5:
+# Create a dictionary
+student = {
+    "Name": "Parul",
+    "Age": 21,
+    "Gender": "Female",
+    "Course": "AI & ML"
+}
+
+# Print all key names one by one
+print("Keys in the dictionary:")
+for key in student.keys():
+    print(key)
+
+
+#que6:
+# Create a nested dictionary
+students = {
+    "Student1": {
+        "Name": "Parul",
+        "Age": 21,
+        "Course": "AI & ML"
+    },
+    "Student2": {
+        "Name": "Aman",
+        "Age": 22,
+        "Course": "Data Science"
+    },
+    "Student3": {
+        "Name": "Riya",
+        "Age": 20,
+        "Course": "Computer Science"
+    }
+}
+
+# Print the nested dictionary
+print("Nested Dictionary:")
+print(students)
+
+
+#que7:
+# Create three separate dictionaries
+dict1 = {
+    "Name": "Parul",
+    "Age": 21
+}
+
+dict2 = {
+    "Course": "AI & ML",
+    "College": "IIT Madras"
+}
+
+dict3 = {
+    "City": "noida",
+    "Country": "India"
+}
+
+# Create one dictionary containing the above three dictionaries
+main_dict = {
+    "Personal_Info": dict1,
+    "Education_Info": dict2,
+    "Location_Info": dict3
+}
+
+# Print the final dictionary
+print("Combined Dictionary:")
+print(main_dict)
+
+
+#que9:
+# Create two dictionaries
+dict1 = {
+    "Name": "Parul",
+    "Age": 21
+}
+
+dict2 = {
+    "Course": "AI & ML",
+    "College": "IIT Madras"
+}
+
+# Merge dict2 into dict1
+dict1.update(dict2)
+
+# Print merged dictionary
+print("Merged Dictionary:")
+print(dict1)
+
+
+#que8:
+# Create two lists
+list1 = ["Name", "Age", "Course"]
+list2 = ["Parul", 21, "AI & ML"]
+
+# Convert lists into a dictionary
+result_dict = dict(zip(list1, list2))
+
+# Print the dictionary
+print("Resulting Dictionary:")
+print(result_dict)
+
+
+#que10:
+# Given dictionary
+sample_dict = { 
+    'C': 92, 
+    'Java': 66, 
+    'Python': 85 
+}
+
+# Get the key with the lowest value
+min_key = min(sample_dict, key=sample_dict.get)
+
+# Print the result
+print("Key with the lowest value:", min_key)
+
+
+
+
+
+
+
+
